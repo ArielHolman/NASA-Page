@@ -1,0 +1,82 @@
+body {
+    margin-left: 160pt;
+    margin-right: 160pt;
+    margin-bottom: 40pt;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #E6E6E6;
+    padding-bottom: 100pt;
+    padding-left: 20pt;
+    padding-right: 20pt;
+    padding-top: 15pt;
+    font-family: 'Arial', sans-serif;
+}
+
+textarea {
+    margin-top: 5pt;
+}
+
+input{
+    margin-top:5pt;
+    margin-bottom: 9pt;
+}
+
+h2{
+    font-size: 16pt;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+li {
+    padding-top: 2pt;
+    padding-bottom: 4pt;
+}
+
+.nasa {
+    background-image: url("Space-man.png");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60pt;
+    background-position: center;
+    background-size:cover;
+    padding-bottom: 100pt;
+    padding-top: 100pt;
+    margin-bottom: 15pt;
+    font-family: 'Anton';
+}
+
+.button {
+    background-color: darkslategray;
+    color: rgb(250, 249, 249);
+    padding-top: 7pt;
+    padding-left: 15pt;
+    padding-right: 15pt;
+    padding-bottom: 7pt;
+    font-weight: bold;   
+}
+
+.no-border {
+    border: none;
+}
+.input-height{
+    height: 20pt;
+}
+
+.textarea-resize {
+    resize:none;
+}
